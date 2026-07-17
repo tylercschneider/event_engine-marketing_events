@@ -1,9 +1,10 @@
 GIT
   remote: https://github.com/tylercschneider/event_engine.git
-  revision: a4c3df009b6901ef3a7616aa12bc1896934e96da
+  revision: 65fa15c22b6fc153f0ac6683f40a03be6fba9872
   specs:
     event_engine (0.1.0)
-      rails (>= 7.1.6, < 9)
+      activesupport (>= 7.1.6, < 9)
+      railties (>= 7.1.6, < 9)
 
 PATH
   remote: .
