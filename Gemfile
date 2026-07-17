@@ -3,6 +3,8 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in event_engine-marketing_events.gemspec.
 gemspec
 
+gem "event_engine", github: "tylercschneider/event_engine"
+
 gem "puma"
 
 gem "sqlite3"

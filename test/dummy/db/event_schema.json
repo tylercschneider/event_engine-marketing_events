@@ -1,0 +1,31 @@
+[
+  {
+    "event_name": "lead_captured",
+    "event_version": 1,
+    "event_type": "domain",
+    "process_type": "durable",
+    "subject": null,
+    "domain": "marketing",
+    "required_inputs": [
+      "lead"
+    ],
+    "optional_inputs": [
+      "source"
+    ],
+    "payload_fields": [
+      {
+        "name": "email",
+        "from": "lead",
+        "attr": "email",
+        "required": true
+      },
+      {
+        "name": "source_name",
+        "from": "source",
+        "attr": "name",
+        "required": false
+      }
+    ],
+    "fingerprint": "e08a720e9c569faf61b0a029fe570affc9c722ade4479cf84557753c0f387886"
+  }
+]
