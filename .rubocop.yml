@@ -1,6 +1,15 @@
 # Omakase Ruby styling for Rails
 inherit_gem: { rubocop-rails-omakase: rubocop.yml }
 
+inherit_mode:
+  merge:
+    - Exclude
+
+AllCops:
+  Exclude:
+    - test/dummy/db/event_schema.rb
+    - test/dummy/db/event_engine_helpers.rb
+
 # Overwrite or add rules to create your own house style
 #
 # # Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
